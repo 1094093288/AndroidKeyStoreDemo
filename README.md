@@ -1,0 +1,5 @@
+##两个AndroidStudio Demo
+用来实现基于androidKeyStore秘钥存储的数据加密方式<br>
+1.androidKeyStore是实现加解密的demo<br>
+2.androidKeyStore1是在root环境下获取AndroidKeyStore的秘钥达到解密本地数据的目的<br>
+运行androidKeyStore1前提：将/data/misc/keystore/usr_0/<uid>+USRPKEY+ALIAS文件其中的uid改为androidKeyStore1的uid，然后将androidKeyStore的/data/data/com.example.androidKeyStore/share_pref下的key_data.xml文件复制到androidKeyStore1相应目录下<br>
